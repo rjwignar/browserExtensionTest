@@ -5,5 +5,5 @@ chrome.action.onClicked.addListener(tab => {
         func: () =>{
             alert("Hello from my extension!");
         }
-    })
-})
+    });
+});
